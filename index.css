@@ -1,0 +1,259 @@
+body {
+    background: lightblue;
+  }
+  .dancingRick {
+    height: 150px;
+    position: fixed;
+    top: 100px;
+    left: 20%;
+  }
+  .dancingRick2 {
+    height: 150px;
+    position: fixed;
+    top: 100px;
+    right: 20%;
+  }
+  
+  h1 {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    height: 10px;
+    font-size: 10px;
+  }
+  .mortyhead {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    height: 120px;
+    width: 120px;
+    background: #fdd2a8;
+    border-radius: 50%;
+    border: 1px solid #000;
+    z-index: 990;
+  }
+  
+  .mortyhair {
+      top: 85px;
+      margin: 0 auto;
+      background: #8a4d16;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      z-index: 888;
+      text-align: center;
+      border: 1px solid #000;
+      border-radius: 20px 20px 250x 20px;
+      -moz-border-radius: 25px 25px 25px 25px;
+      -webkit-border-radius: 30px 30px 30px 30px;
+      -webkit-transform: rotate(20deg);
+         -moz-transform: rotate(20deg);
+          -ms-transform: rotate(20deg);
+           -o-transform: rotate(20eg);
+  }
+  .mortyhair:before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 20px;
+      height: 100px;
+      width: 100px;
+      background: #8a4d16;
+      border: 1px solid #000;
+      border-left: none;
+      border-radius: 20px 20px 250x 20px;
+      -moz-border-radius: 25px 25px 25px 25px;
+      -webkit-border-radius: 30px 30px 30px 30px;
+      -webkit-transform: rotate(35deg);
+         -moz-transform: rotate(35deg);
+          -ms-transform: rotate(35deg);
+           -o-transform: rotate(35deg);
+  }
+  .mortyeye1 {
+      position: absolute;
+      top: 25px;
+      left: -7px;
+      display: inline-block;
+      height:35px;
+      width:35px;
+      border: 1px solid #000;
+      border-radius: 25px 25px 25px 25px;
+      -moz-border-radius: 25px 25px 25px 25px;
+      -webkit-border-radius: 25px 25px 25px 25px;
+      background: #fff;
+      z-index: 992;
+  }
+  .mortyeye2 {
+      position: absolute;
+      top: 25px;
+      left: 43px;
+      display: inline-block;
+      height:35px;
+      width:35px;
+      border: 1px solid #000;
+      border-radius: 25px 25px 25px 25px;
+      -moz-border-radius: 25px 25px 25px 25px;
+      -webkit-border-radius: 25px 25px 25px 25px;
+      background: #fff;
+      z-index: 992;
+  }
+  .mortyear {
+      position: absolute;
+      top: 68px;
+      right: -4px;
+      display: inline-block;
+      height:25px;
+      width:20px;
+      border: 1px solid #000;
+      border-left: none;
+      border-radius: 0px 20px 20px 0px;
+      -moz-border-radius: 0px 20px 20px 0px;
+      -webkit-border-radius: 0px 20px 20px 0px;
+      background: #fdd2a8;
+      z-index: 999;
+      -webkit-transform: rotate(10deg);
+           -moz-transform: rotate(10deg);
+            -ms-transform: rotate(10deg);
+             -o-transform: rotate(10eg);
+  }
+  .pupil {
+      margin: 0 auto;
+      width: 3px;
+      height: 3px;
+      background: #000;
+      border-radius: 50%;
+      position: absolute;
+      top: 45%;
+      left: 45%;
+  }
+  .mortyeyebrow1 {
+    position: absolute;
+    margin: 0 auto;
+    top: 18px;
+    left: 7px;
+    margin-bottom: 0px;
+    height: 10px;
+    width: 25px;
+  }
+  .mortyeyebrow1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid #000;
+    border-radius: 50px 50px;
+    -moz-border-radius: 50px 50px;
+    -webkit-border-radius: 50px 50px;
+    -webkit-transform: rotate(10deg);
+           -moz-transform: rotate(10deg);
+            -ms-transform: rotate(10deg);
+             -o-transform: rotate(10eg);
+  }
+  .mortyeyebrow2 {
+    position: absolute;
+    margin: 0 auto;
+    top: 19px;
+    left: 57px;
+    margin-bottom: 0px;
+    height: 10px;
+    width: 25px;
+  }
+  .mortyeyebrow2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid #000;
+    border-radius: 50px 50px;
+    -moz-border-radius: 50px 50px;
+    -webkit-border-radius: 50px 50px;
+    -webkit-transform: rotate(10deg);
+           -moz-transform: rotate(10deg);
+            -ms-transform: rotate(10deg);
+             -o-transform: rotate(10eg);
+  }
+  .mortynose {
+    position: relative;
+    top: 62px;
+    left: 20px;
+    width: 10px;
+    height: 10px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 0px 0px 50px;
+    border-radius: 50px 0px 0px 50px;
+    background: #fdd2a8;
+    z-index: 992;
+    transform: rotate(-25deg);
+  }
+  .wmouth {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 8px;
+    height: 15px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 0px 0px 50px;
+    border-radius: 0px 0px 50px 50px;
+  }
+  .wmouth:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 7px;
+    width: 8px;
+    height: 7px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 0px 0px 50px;
+    border-radius: 0px 0px 50px 50px;
+  }
+  
+  .openmouth {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 20px;
+    height: 15px;
+    border: 1px solid #000;
+    background: darkred;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 100px 100px 100px 100px;
+  }
+  .smile {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    width: 25px;
+    height: 15px;
+    border: 1px solid #000;
+    background: fdd2a8;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 4px;
+    border-color: transparent transparent #000 transparent;
+  }
+  .frown {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    width: 25px;
+    height: 15px;
+    border: 1px solid #000;
+    background: fdd2a8;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 4px;
+    border-color: #000 transparent transparent transparent;
+  }
